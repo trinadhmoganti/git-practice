@@ -8,3 +8,8 @@
 
 ## Force on a particular branch
 `git push origin +<branch-name>` // observe the `+` sign
+
+## Delete most recent commit locally
+`git reset --hard HEAD~1` // deletes last commit and work done too
+
+`git reset --soft HEAD~1` // deletes last commit but preserves your work
